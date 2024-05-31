@@ -1,5 +1,8 @@
 package zypper
 
+// RepositoryService handles all operations related to openSUSE repositories.
+type RepositoryService service
+
 // Repository represents an openSUSE repository.
 type Repository struct {
 	Alias        string `xml:"alias,attr"`
